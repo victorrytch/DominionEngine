@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "outFile": "engine.js",
+    "declaration": true,
+    "lib": [ "ES6" ]
+  },
+  "references": [],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+  "compilerOptions": {
+    "target": "ES6",
+    "outFile": "gui.js",
+    "lib": [ "ES6" ]
+  },
+  "references": [],
+  "exclude": [
+    "node_modules"
+  ]
+}

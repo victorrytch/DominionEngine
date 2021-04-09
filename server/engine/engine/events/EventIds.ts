@@ -1,0 +1,18 @@
+﻿enum EventIds {
+
+    CARD_PLAYED,
+    ADD_MONEY,
+    GAIN_CARD,
+    DRAW_CARD,
+    SET_UNAFFECTED,
+    REVEAL_CARD,
+    DISCARD_CARD,
+    TRASH_CARD,
+    SET_CARD_ONTO_DECK,
+    PLACE_IN_DECK,
+    ADD_ACTION,
+    ADD_BUYS,
+    RESHUFFLE_DECK,
+    ADVANCE_PHASE
+
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "outFile": "node_includes.js",
+    "lib": [ "ES6" ],
+    "declaration": true
+  },
+  "references": [],
+  "exclude": [
+    "node_modules"
+  ]
+}

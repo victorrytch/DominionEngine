@@ -1,0 +1,18 @@
+﻿enum StepId {
+    JUMP_TO_STEP,
+    CONDITIONAL,
+    CONTAINS,
+    DRAW_CARDS,
+    EVENT_GENERATOR,
+    FOR_EACH,
+    LOAD_CARD,
+    LOAD_DECK,
+    LOAD_HAND,
+    LOOP,
+    PLAYER_CHOICE,
+    RELATIONAL,
+    QUERY,
+    COUNT,
+    ARRAY,
+    MATH
+}

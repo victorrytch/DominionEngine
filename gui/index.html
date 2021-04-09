@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Dominion Test App</title>
+    <script src="gui.js"></script>
+    <link rel="stylesheet" type="text/css" href="libs/semantic/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="libs/semantic/semantic.min.js"></script>
+</head>
+<body>
+    <div id="page" style="height: 100%"></div>
+    <script>
+        window.addEventListener("load", () => {
+            var pageDisplay = document.getElementById("page");
+            new PageController().route(pageDisplay, document);
+        });
+    </script>
+
+    <!--    <div id="gamedisplay"></div>
+            <div id="logbox"></div>
+
+            <script>
+                var gsDisplay = document.getElementById("gamedisplay");
+                new GameStateDisplay().render(gsDisplay, document);
+                var logElement = document.getElementById("logbox");
+                new LogBox().render(logElement, document);
+            window.addEventListener("load", () => {
+                    new LogBoxClient().listen(3000);
+            });
+    </script>-->
+</body>
+</html>
